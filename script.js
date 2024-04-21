@@ -4,5 +4,5 @@ document.getElementById("button").addEventListener("click", function() {
 
   var queryString = "?name=" + encodeURIComponent(name) + "&year=" + encodeURIComponent(year);
 
-  document.getElementById("url").textContent = "https://localhost:8080/" + queryString;
+  document.getElementById("url").textContent = queryString;
 });
