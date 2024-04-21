@@ -1,6 +1,4 @@
-// your code here
-document.getElementById("urlForm").addEventListener("submit", function(event) {
-  event.preventDefault();
+document.getElementById("button").addEventListener("click", function() {
   var name = document.getElementById("name").value;
   var year = document.getElementById("year").value;
 
